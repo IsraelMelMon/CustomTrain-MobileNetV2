@@ -74,7 +74,7 @@ if not os.path.exists('config_files'):
 #writes csv
 with open('config_files/data.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerows(classes)
+    writer.writerows(classes2)
     for row in rows:
         writer.writerow(row)
 # writes yaml config file
